@@ -216,9 +216,8 @@ a {
 	.case-wrapper .case {
 		width: 100%;
 	    box-sizing: border-box;
-	    margin: 0;
+	    margin: 10px 0;
 	    padding: 10px;
-	    margin: 10px;
 	    overflow: hidden;
 	}
 	.case-wrapper .case img {
@@ -228,9 +227,10 @@ a {
 
 	.case-wrapper .case p {
 		box-sizing: border-box;
-	    padding: 10px;
+	    padding: 0 5px 0 10px;
 	    width: 70%;
 	    float: left;
+	    margin: 0;
 	}
 
 	.about p {
@@ -266,6 +266,8 @@ a {
 		/*float: left;*/
 	}
 
+
+
 	.bs-block:hover .bs-describe {
 		opacity: 1;
 		transform: none;
@@ -276,9 +278,15 @@ a {
 		opacity: 1;
 		transform: none;
 	}
+
+	.footer-wrapper {
+		width: 100%;
+		box-sizing: border-box;
+		padding-left: 20px;
+	}
 }
 
-@media (max-width: 980px)  {
+@media (max-width: 680px)  {
 	.banner {
 		height: 200px;
 		padding: 40px 0 0 40px;
@@ -305,4 +313,6 @@ a {
 	.bs-block .bs-describe {
 		font-size: 20px;
 	}
+
+
 }
